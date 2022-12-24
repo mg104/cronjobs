@@ -15,7 +15,7 @@ CPU_PERCENTAGE_THRESHOLD=1.0
 COUNTER_LOW_CPU_USAGE=0
 
 # Number of Counter ticks after which we want to shutdown the computer
-SHUTDOWN_THRESHOLD=20
+SHUTDOWN_THRESHOLD=1200
 
 # Running an endless loop with the following properties:
 # Run top command with following options:
