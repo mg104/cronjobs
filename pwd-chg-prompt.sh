@@ -27,6 +27,4 @@ if [[ "${LAST_PWD_CHG_DAYS}" -ge 15 ]]; then
 	
 	# Run the command to change the password
 	passwd "${USERNAME}"
-else
-	echo "Password was changed less than 15 days ago, so not prompting for password change."
 fi
